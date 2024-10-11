@@ -1,0 +1,91 @@
+
+body {    
+    font-family: 'Raleway', sans-serif;
+    src: local(raleway), url(../css/fonte/Raleway/Raleway-VariableFont_wght.ttf);
+    background-image: url('../css/img/Design\ sem\ nome.png');
+  margin: 15;
+  padding: 15;
+  border-color: #1BAAC4;
+  }
+
+  .container {
+    max-width: 350px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background-image: linear-gradient(to bottom, #0c0c0c, #0c0c0c);
+    border-radius: 25px;
+    box-shadow: 0 25px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    border: 1px solid #1b1b1b;
+    opacity: 0.8; /* Define a opacidade para 70% (0.7) */
+    background: blur(5px); /* Adiciona um efeito de blur com raio de 5 pixels */
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+}
+.container {
+  text-align: center;
+}
+
+.container img {
+  display: inline-block; /* Certifica-se de que a imagem seja exibida como um bloco inline */
+}
+
+  
+h1 {
+margin-top: 20;
+text-align: center; 
+color: white;
+  
+}
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: center;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #1BAAC4;
+  border-radius: 3px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+select {
+  height: 55px;
+}
+textarea {
+  resize: center;
+}
+button {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: #1BAAC4;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #1BAAC4;
+  position: center;
+}
+button:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: #199cb3;
+  position: center;
+}
+.forgot-password {
+  color: white;
+  
+}

@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 0;
+    height: 90%; 
+    margin-top: 0; 
+    justify-content: center;
+    align-items: center; 
+    background-image: url('https://i.imgur.com/aQqYej9.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container, .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #06203b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 110%; 
+    max-width: 800px; 
+    height: 430px;
+    max-height: 110%;
+    background-color: #06203b; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 90px;
+    padding: 30px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.503); 
+    border-radius: 30px; 
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 2em;
+    color: #e3ecfb;
+}
+
+.button {
+    background: #b6d21d;
+    color: #06203b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.button:hover {
+    background: #abc41c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-weight: bold;
+    color:#f7f7f7
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #06203b;
+    background-color: #e1edfb; 
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+option {
+    color: #06203b
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+.alerta-sucesso {
+    position: fixed;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    margin-top: 500px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.alerta-erro {
+    position: fixed;
+    padding: 10px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"], 
+select {
+    border: 2px solid #74869a; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px 0; 
+    background-color: #e1edfb; 
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus, 
+select:focus {
+    border-color: #74869a; 
+    outline: none; 
+}
+

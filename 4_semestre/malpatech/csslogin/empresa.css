@@ -1,0 +1,233 @@
+
+/* importe das fontes */
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('../fonts/raleway/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Light;
+  src: url('../fonts/raleway/Raleway-Light.ttf'); 
+}
+
+@font-face {
+    font-family: Raleway-ExtraLight;
+    src: url('../fonts/raleway/Raleway-ExtraLight.ttf'); 
+  }
+
+/* style geral do body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* style geral do header */
+header {
+    background-color: #2e5623;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*style da imagem do background (perfil)*/
+.imagembackgroud {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* Ajuste a altura do banner conforme necessário */
+    background: url('../CADASTRONOVO/images/profilebackgroud.png') center/cover;
+}
+
+/*style da imagem de perfil*/
+.imagemheader {
+    position: relative;
+    top: 50%;  /*posição */
+    left: 27%; /*posição */
+    transform: translate(-50%, -50%); /*Coloca a imagem por cima do banner */
+    width: 200px; /* Ajusta a largura da imagem de perfil conforme necessário */
+    height: 200px; /* Ajusta a altura da imagem de perfil conforme necessário */
+    border-radius: 50%; /* Deixa a imagem de perfil circular */
+    max-width: 75%;
+}
+
+/* style geral do cabecalho (imagem, titulo, botao) */
+.cabecalho {
+    margin-bottom: -10%;
+    max-width: 100%;
+}
+
+/*nome da empresa ou usuário*/
+.profile-name {
+    font-family: Raleway-Bold;
+    color: #303030;
+    position: relative;
+    max-width: 50%;
+    left: 540px;
+    bottom: 210px;
+    text-align: left;
+}
+
+/*descricao/bio da empresa ou usuário*/
+.profile-subname {
+    font-family: Raleway-ExtraLight;
+    color: #888888;
+    position: absolute;
+    left: 540px;
+    bottom: 415px;
+    text-align: left;
+}
+
+/*botao "saiba mais"*/
+.empresa-info {
+    position: relative;
+    bottom: 100px;
+    left: 325px;
+    line-height: 3;
+    font-family: Raleway-Regular;
+    font-size: 14px;
+
+    color: #3b8a3b;
+    text-align: center;
+  
+    margin: auto;
+    display: block;
+    width: 10%;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #008000;
+    height: 40px;
+    border-radius: 15px;
+    padding: 6 20px 20px;
+    padding-top: 1px;
+    margin-bottom: 40px;
+}
+
+/*botao "Fazer uma Denúncia"*/
+.fazer-denuncia {
+    position: relative;
+    bottom: 7px;
+    left: 320px;
+    line-height: 2.5;
+    font-family: Raleway-Regular;
+    font-size: 12px;
+
+    color: #ffff;
+    text-align: center;
+  
+    margin: auto;
+    display: block;
+    width: 19%;
+    background: #3b8a8a;
+    border-style: solid;
+    border-color: #ffff;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/*botao "Fazer uma Denúncia"*/
+.responder-denuncia {
+    position: relative;
+    bottom: -7px;
+    right: 295px;
+    line-height: 2.5;
+    font-family: Raleway-Regular;
+    font-size: 12px;
+
+    color: #3b8a8a;
+    text-align: center;
+  
+    margin: auto;
+    display: block;
+    width: 19%;
+    background: #ffff;
+    border-style: solid;
+    border-color: #3b8a8a;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/*Linha horizontal para divisão do conteúdo*/
+.horizontal-line {
+    position: relative;
+    margin: auto;
+    top: 20%;
+    width: 54%;
+    height: 1px;
+    background-color: #cfcfcf;
+}
+
+/*conteiner das denúncias*/
+.complaints {
+    font-family: Raleway-Bold;
+    margin: auto;
+    color: #303030;
+    max-width: 800px;
+    text-align: left;
+
+}
+
+.resposta-comentario {
+    background-color: #e0e0e0;
+    padding: 7px;
+    border-radius: 8px;
+    margin-top: 15px;
+    }
+
+/*style geral do texto das denúncias*/
+.complaint {
+    font-family: Raleway-Regular;
+    font-size: 12px;
+    color:#303030;
+    background-color: #fbfbfb;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+
+.complaints h2 {
+    margin: 0 0 -25px;
+}
+
+.complaint h3 {
+    font-family: Raleway-Bold;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #303030;
+}
+
+.complaint p {
+    margin: 15px 0;
+}
+
+/*style do texto "status"*/
+.status {
+    font-family: Raleway-Bold;
+    color: #303030;
+}
+
+/*style do status "resolvido"*/
+.resolvida {
+    font-family: Raleway-Bold;
+    color: #549c54;
+}
+
+/*style do status "pendente"*/
+.pendente {
+    font-family: Raleway-Bold;
+    color: #b43b3b;
+}
+
+a {
+    color: #176604;
+    text-decoration: none;
+    transition: color 0.3s;
+}

@@ -1,0 +1,62 @@
+
+body {    
+      font-family: 'Raleway', sans-serif;
+      src: local(raleway), url(../formulario/fonte/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+      background-image: linear-gradient(to bottom, #16191F, #0e1a31);
+    margin: 0;
+    padding: 0;
+    border-color: #1BAAC4;
+    }
+
+  .container {
+    max-width: 600px;
+    margin:  auto;
+    padding: 100px;
+    background-image: linear-gradient(to bottom, #16191F, #0e1a31);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #1BAAC4(0, 0, 0, 0.1);
+    color: white;
+  }
+  h2 {
+  margin-top: 0;
+  text-align: center; 
+  color: white;
+    
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: center;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 1px solid #1BAAC4;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  select {
+    height: 55px;
+  }
+  textarea {
+    resize: vertical;
+  }
+  button {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #1BAAC4;
+  }
+  button:hover {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #0056b3;
+  }
